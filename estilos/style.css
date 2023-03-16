@@ -37,6 +37,7 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow:0px 2px 17px 0px rgba(0, 0, 0, 0.436);
+    transition: width .5s, height .5s;
 }
 
 div#imagem{
@@ -52,5 +53,7 @@ div#imagem{
     padding: 10px;
     
 }
+
+
 
 
