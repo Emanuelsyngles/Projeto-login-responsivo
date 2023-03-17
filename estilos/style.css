@@ -29,8 +29,8 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
+    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 250px;
@@ -86,14 +86,14 @@ div.campo{
 
 .submit:hover{
     background-color: rgb(101, 213, 155);
-    transition: .5s;
     cursor: pointer;
+    transition: .5s;
 }
 
 form .botao{
     display: block;
     text-align: center;
-    font-size: 1em;
+    font-size: 1em;  
     height: 40px;
     margin-top: 5px;
     background-color: cornflowerblue;
@@ -103,11 +103,18 @@ form .botao{
     border-radius: 5px;
 }
 
+.botao h3{
+    padding-top: 5px;
+}
+
 form .botao:hover{
     background-color: coral;
     transition: .5s;
 }
 
-.material-symbols-outlined{
-    font-size: 0.8em;
+div .campo >input:focus-within {
+    background-color: bisque;
+    transition: .5s;
 }
+
+
